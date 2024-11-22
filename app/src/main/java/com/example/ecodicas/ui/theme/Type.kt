@@ -1,4 +1,6 @@
 package com.example.ecodicas.ui.theme
+//Integrantes:  Luigi de Jesus Felice - Rm: 94546
+//              Victor Moura Ventura - Rm: 93509
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -7,6 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.ecodicas.R
 import com.example.ecodicas.model.DicaEntity
 
+//Integrantes:  Luigi de Jesus Felice - Rm: 94546
+//              Victor Moura Ventura - Rm: 93509
+
 class DicaAdapter(
     private val onDeleteClick: (DicaEntity) -> Unit,
     private val onItemClick: (DicaEntity) -> Unit

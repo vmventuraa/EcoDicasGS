@@ -1,4 +1,6 @@
 package com.example.ecodicas
+//Integrantes:  Luigi de Jesus Felice - Rm: 94546
+//              Victor Moura Ventura - Rm: 93509
 
 import DicaAdapter
 import android.os.Bundle
