@@ -25,6 +25,9 @@ class DicaViewModel(application: Application) : AndroidViewModel(application) {
         ).build()
         dicaDao = database.dicaDao()
         dicasLiveData = dicaDao.getAll()
+        this.addDica("Luigi de Jesus Felice","RM: 94546")
+        this.addDica("Victor Moura Ventura","RM: 93509")
+
     }
 
     fun addDica(titulo: String, descricao: String) {

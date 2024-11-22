@@ -50,6 +50,8 @@ class MainActivity : AppCompatActivity() {
         val editTextDescricao = findViewById<EditText>(R.id.editTextDescricao)
         val buttonAddDica = findViewById<Button>(R.id.buttonAddDica)
 
+
+
         buttonAddDica.setOnClickListener {
             val titulo = editTextTitulo.text.toString()
             val descricao = editTextDescricao.text.toString()
@@ -79,6 +81,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 return true
             }
+
             override fun onQueryTextChange(newText: String?): Boolean {
                 if (newText != null) {
                     dicaAdapter.filter(newText)
